@@ -22,7 +22,6 @@ def assign_rooms(speakers)
 }
 return rooms
 end
-end
 
 #names.collect {|badge| "Hello, my name is "badge"."}
 #end

@@ -1,12 +1,17 @@
 # Write your code here.
 names = %w(Edsger Ada Charles Alan Grace Linus)
-def batch_badge_creator(array)
-  nuarray = []
-  array.each do |name|
-    nuarray.push("Hello, my name is #{name}.")
+def badge_maker(name)
+  return "Hello, my name is #{name}."
+end 
+
+def batch_badge_creator(attendees)
+  badges=[]
+  attendees.each do|badge|
+  badges.push("Hello, my name is #{badge}.")
   end
-  return nuarray
-end
+  return badges
+  
+end 
 
 
 

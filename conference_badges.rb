@@ -24,5 +24,15 @@ def assign_rooms(speakers)
    return assign
 end
 
+def printer(attendees)
+  batch_badge_creator.each do |badge|
+    puts badge
+  end
+
+  assign_rooms.each do |speaker|
+    puts speaker
+  end
+end
+
 #names.collect {|badge| "Hello, my name is "badge"."}
 #end

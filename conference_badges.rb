@@ -2,7 +2,7 @@
 names = %w(Edsger Ada Charles Alan Grace Linus)
 def badge_maker(name)
   return "Hello, my name is #{name}."
-end 
+end
 
 def batch_badge_creator(attendees)
   badges=[]
@@ -10,8 +10,8 @@ def batch_badge_creator(attendees)
   badges.push("Hello, my name is #{badge}.")
   end
   return badges
-  
-end 
+
+end
 
 
 
